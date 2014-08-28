@@ -1,0 +1,14 @@
+{{extend 'layout.html'}}
+
+  <head>
+    <link rel="stylesheet" href="{{=URL('static', '/lib/bootstrap/css/bootstrap.css')}}" />
+    <link rel="stylesheet" href="{{=URL('static', '/lib/font-awesome/css/font-awesome.css')}}" />
+    <link rel="stylesheet" href="{{=URL('static', '/lib/durandal/css/durandal.css')}}" />
+<!--    <link rel="stylesheet" href="css/starterkit.css" />  -->
+  </head>
+  <body>
+    <div id="applicationHost"></div>
+    <script src="{{=URL('static', 'lib/require/require.js')}}"
+data-main="{{=URL('static', 'app/durandaltest/main')}}"></script>
+  </body>
+</html>
