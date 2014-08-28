@@ -1,0 +1,8 @@
+*.pyc
+databases/*
+errors/*
+sessions/*
+cache/*
+*.bak
+*.log
+languages/*
